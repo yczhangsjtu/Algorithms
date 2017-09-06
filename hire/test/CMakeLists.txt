@@ -1,0 +1,5 @@
+include_directories(${Algorithms_SOURCE_DIR}/hire)
+add_executable(test_randomize test_randomize.cpp)
+target_link_libraries(test_randomize gtest gtest_main)
+add_test(testrandomize test_randomize)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
