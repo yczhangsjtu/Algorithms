@@ -1,0 +1,5 @@
+include_directories(${Algorithms_SOURCE_DIR}/sort)
+add_executable(test_sort test_sort.cpp)
+target_link_libraries(test_sort gtest gtest_main)
+add_test(testsort test_sort)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
