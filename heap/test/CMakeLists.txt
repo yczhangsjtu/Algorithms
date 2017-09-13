@@ -1,0 +1,5 @@
+include_directories(${Algorithms_SOURCE_DIR}/heap)
+add_executable(test_heap test_heap.cpp)
+target_link_libraries(test_heap gtest gtest_main)
+add_test(testheap test_heap)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
