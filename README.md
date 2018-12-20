@@ -1,2 +1,2 @@
 # Algorithms
-Implementation of algorithms in "Introduction to Algorithms (Second Edition)"
+Solution to online programming problems and implementation of textbook algorithms.
